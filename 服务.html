@@ -5,7 +5,11 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<title>服务</title>
 		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
-		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" media="screen and (min-width:640px)" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css"  media="screen and (max-width:640px)" href="css/mobile.css"/>
+		<script src="js/jquery-1.8.0.js"></script>
+		<script src="js/public.js"></script>	
+		
 	</head>
 	<body>
 		<!--头部-->
@@ -21,6 +25,9 @@
 					<a href="作品.html">作品</a>
 					<a href="联系.html">联系</a>
 				</nav>
+				<div id="nav_mobile">
+					
+				</div>
 				<div class="phone">
 					<img src="img/tel.jpg"/>
 					<i>87756498</i>
@@ -32,7 +39,12 @@
 			<div class="background">
 				<img src="img/fw_banner.jpg"/>
 			</div>
-			
+		</div>
+		<!--mobile banner-->
+		<div class="mobile_banner">
+			<div class="background">
+				<img src="img/mobile_banner.jpg" alt="" />
+			</div>
 		</div>
 		
 		<!--服务流程-->
